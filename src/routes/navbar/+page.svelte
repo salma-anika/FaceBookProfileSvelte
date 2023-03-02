@@ -39,7 +39,7 @@ import Feed from '../../icons/feed.svelte';
       <div class="flex space-x-2">
         <button class="h-9 p-0.5 flex items-center rounded-full focus:outline-none">
           <img
-            src="/pro.jpg"
+            src="src/pro.jpg"
             class="rounded-full border w-9 border-fButton"
             alt="profile"
           />
@@ -78,4 +78,4 @@ import Feed from '../../icons/feed.svelte';
         </div>
       </div>
     </div>
-</div>
+    </div>
