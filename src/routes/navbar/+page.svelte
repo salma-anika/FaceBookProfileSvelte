@@ -35,6 +35,47 @@ import Feed from '../../icons/feed.svelte';
         <button class="focus:outline-none">
           <Feed />
         </button>
-      </div>s
+      </div>
+      <div class="flex space-x-2">
+        <button class="h-9 p-0.5 flex items-center rounded-full focus:outline-none">
+          <img
+            src="/pro.jpg"
+            class="rounded-full border w-9 border-fButton"
+            alt="profile"
+          />
+          <div class="text-fBlack font-medium ml-2 pr-3">
+            Salma Anika
+          </div>
+        </button>
+
+        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full ">
+          <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1 hidden">
+            <div class="text-sm text-white text-center">3</div>
+          </div>
+          <Plus />
+        </div>
+
+        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full">
+          <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1 hidden">
+            <div class="text-sm text-white text-center">3</div>
+          </div>
+          <Messenger />
+        </div>
+
+        <div class="w-10 bg-fButton rounded-full flex justify-center items-center relative">
+          <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1">
+            <div class="text-sm text-white text-center">3</div>
+          </div>
+
+          <Bell />
+        </div>
+
+        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full">
+          <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1 hidden">
+            <div class="text-sm text-white text-center">3</div>
+          </div>
+          <DownArrow  />
+        </div>
+      </div>
     </div>
 </div>
