@@ -22,5 +22,19 @@ import Feed from '../../icons/feed.svelte';
           />
         </div>
       </div>
+      <div class="flex space-x-24 items-center">
+        <button class="focus:outline-none">
+          <Home />
+        </button>
+        <button class="focus:outline-none">
+          <Watch />
+        </button>
+        <button class="focus:outline-none">
+          <Groups />
+        </button>
+        <button class="focus:outline-none">
+          <Feed />
+        </button>
+      </div>s
     </div>
 </div>
