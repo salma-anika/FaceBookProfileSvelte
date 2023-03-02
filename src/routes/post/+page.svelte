@@ -27,4 +27,15 @@ import More from '../../icons/more.svelte';
     </div>
   
     </div>
+    <div class="flex items-center space-x-2 max-[450px]:hidden">
+        <button class="w-12 h-9 bg-fButton rounded flex items-center justify-center focus:outline-none">
+          <Phone />
+        </button>
+        <button class="w-12 h-9 bg-fButton rounded flex items-center justify-center focus:outline-none">
+          <Friend />
+        </button>
+        <button class="w-12 h-9 bg-fButton rounded flex items-center justify-center focus:outline-none">
+          <More />
+        </button>
+      </div>
     </div>
