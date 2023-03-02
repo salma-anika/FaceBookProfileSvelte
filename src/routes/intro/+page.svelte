@@ -1,3 +1,6 @@
+<script>
+    import Post from '../../routes/post/+page.svelte'
+</script>
 <div class="px-44 shadow">
     <div class="relative h-96 rounded-b flex justify-center max-[450px]:w-[600px]">
         <img
@@ -17,6 +20,7 @@
     <div class="text-center mt-6 text-3xl font-bold text-fBlack max-[450px]:hidden">
         Salma Anika
       </div>
+<Post/>
       </div>
 
       
