@@ -16,5 +16,15 @@ import More from '../../icons/more.svelte';
     <div class="px-4 py-5 text-fGrey">
       Friends 
     </div>
+    <div class="px-4 py-5 text-fGrey">Photos</div>
+    <div class="px-4 py-5 text-fGrey">Videos</div>
+    <div class="px-4 py-5 text-fGrey">Check-Ins</div>
+    <div class="px-4 flex items-center py-5 text-fGrey">
+      More
+      <span class="ml-1">
+        <DownArrow />
+      </span>
+    </div>
+  
     </div>
     </div>
