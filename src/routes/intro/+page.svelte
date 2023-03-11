@@ -2,7 +2,7 @@
     import Post from '../../routes/post/+page.svelte'
 </script>
 <div class="">
-    <div class="relative h-96 rounded-b flex justify-center max-[450px]:w-[900px] max-[450px]:m-auto ">
+    <div class="relative h-96 rounded-b flex justify-center max-[450px]:w-[900px] max-[850px]:w-[1200px] max-[450px]:m-auto ">
         <img
         src="src/OIP.jpg"
         class="object-cover w-full h-full rounded-b "
