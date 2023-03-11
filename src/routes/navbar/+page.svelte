@@ -36,14 +36,14 @@ import Feed from '../../icons/feed.svelte';
           <Feed />
         </button>
       </div>
-      <div class="flex space-x-2">
+      <div class="flex space-x-2 max-[1250px]:ml-3">
         <button class="h-9 p-0.5 flex items-center rounded-full focus:outline-none">
           <img
             src="src/pro.jpg"
             class="rounded-full border w-9 border-fButton"
             alt="profile"
           />
-          <div class="text-fBlack font-medium ml-2 pr-3 max-[850px]:w-[150px] max-[850px]:text-[20px]" >
+          <div class="text-fBlack font-medium ml-2 pr-3 max-[850px]:w-[150px] max-[450px]:text-[20px] max-[1250px]:w-[150px] " >
             Salma Anika
           </div>
         </button>

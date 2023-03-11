@@ -17,7 +17,7 @@
       </div>
     
     </div>
-    <div class="text-center mt-6 text-3xl font-bold text-fBlack max-[450px]:hidden">
+    <div class="text-center mt-6 text-3xl font-bold text-fBlack max-[450px]:hidden max-[850px]:hidden">
         Salma Anika
       </div>
 <Post/>
