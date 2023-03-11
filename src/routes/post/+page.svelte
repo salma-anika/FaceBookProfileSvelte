@@ -4,7 +4,7 @@ import Phone from '../../icons/phone.svelte';
 import Friend from '../../icons/friend.svelte';
 import More from '../../icons/more.svelte';
 </script>
-<div class="border border-fGrey mt-6 border-opacity-10" />
+<div class="border border-fGrey mt-6 border-opacity-10 w-full max-[850px]:w-full" />
 <div class="flex justify-between px-8">
   <div class="flex items-center">
     <div class="px-4 py-5 text-fBlue border-b-4 border-fBlue">
