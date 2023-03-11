@@ -22,7 +22,7 @@ import Feed from '../../icons/feed.svelte';
           />
         </div>
       </div>
-      <div class="flex space-x-24 items-center">
+      <div class="flex space-x-24 items-center max-[450px]:hidden">
         <button class="focus:outline-none">
           <Home />
         </button>
@@ -48,21 +48,21 @@ import Feed from '../../icons/feed.svelte';
           </div>
         </button>
 
-        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full ">
+        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full max-[450px]:hidden ">
           <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1 hidden">
             <div class="text-sm text-white text-center">3</div>
           </div>
           <Plus />
         </div>
 
-        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full">
+        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full max-[450px]:hidden">
           <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1 hidden">
             <div class="text-sm text-white text-center">3</div>
           </div>
           <Messenger />
         </div>
 
-        <div class="w-10 bg-fButton rounded-full flex justify-center items-center relative">
+        <div class="w-10 bg-fButton rounded-full flex justify-center items-center relative max-[450px]:hidden">
           <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1">
             <div class="text-sm text-white text-center">3</div>
           </div>
@@ -70,7 +70,7 @@ import Feed from '../../icons/feed.svelte';
           <Bell />
         </div>
 
-        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full">
+        <div class="w-10 bg-fButton flex items-center justify-center relative rounded-full max-[450px]:hidden">
           <div class="absolute rounded-full bg-fRed w-5 h-5 z-50 inset-x-6 -top-1 hidden">
             <div class="text-sm text-white text-center">3</div>
           </div>
